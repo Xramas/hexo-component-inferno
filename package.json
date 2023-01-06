@@ -43,7 +43,7 @@
     "eslint-plugin-jest": "^25.3.4",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-react": "^7.18.0",
-    "hexo-renderer-marked": "^5.0.0",
+    "hexo-renderer-marked": "^6.0.0",
     "html-minifier": "^4.0.0",
     "inferno-server": "^7.4.1",
     "jest": "^27.4.7",
