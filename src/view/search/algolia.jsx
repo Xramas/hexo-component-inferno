@@ -113,11 +113,7 @@ Algolia.Cacheable = cacheComponent(Algolia, 'search.algolia', (props) => {
     apiKey: algolia ? algolia.apiKey : null,
     indexName: algolia ? algolia.indexName : null,
     algoliaSearchUrl: helper.cdn('algoliasearch', 'lastest', 'dist/algoliasearch-lite.umd.js'),
-    instantSearchUrl: helper.cdn(
-      'instantsearch.js',
-      '4.3.1',
-      'dist/instantsearch.production.min.js',
-    ),
+    instantSearchUrl: helper.cdn('instantsearch.js', 'latest', 'dist/instantsearch.production.min.js'),
     jsUrl: helper.url_for('/js/algolia.js'),
   };
 });
